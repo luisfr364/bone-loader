@@ -1,10 +1,11 @@
 import "./App.css";
-import { LoadingLine } from "../dist/bone-loader.js";
+import { GenericLoadEl, LoadingLine } from "bone-loader";
 
 function App() {
   return (
     <>
       <LoadingLine />
+      <GenericLoadEl />
     </>
   );
 }
