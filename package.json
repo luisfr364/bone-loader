@@ -38,8 +38,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.8.3"
-  },
-  "dependencies": {
-    "bone-loader": "^0.0.1"
   }
 }
