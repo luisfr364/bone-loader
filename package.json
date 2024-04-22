@@ -5,6 +5,18 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "react",
+    "loader",
+    "bone"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/bone-loader.js",
+      "require": "./dist/bone-loader.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
   "license": "MIT",
   "author": "luisfr364",
   "repository": {
