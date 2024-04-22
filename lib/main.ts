@@ -1,4 +1,4 @@
-import GenericLoadEl from "./components/GenericLoadEl";
+import GenericLoadEl from "./components/GenericLoadingEl";
 import LoadingLines from "./components/LoadingLines";
 import LoadingLine from "./components/LoadingLine";
 

@@ -13,7 +13,7 @@ There are three types of elements in this library
 
 Each one can have their propetied modified by passing css values via props.
 
-## GenericLoadEl
+## GenericLoadingEl
 
 This is a component made to be fully customizable in case you want an element with a different shape, like a circle or even a triangle.
 

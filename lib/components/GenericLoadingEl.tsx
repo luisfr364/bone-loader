@@ -26,8 +26,8 @@ const LoadingGeneric = styled.div<loadingGenericProps>`
   animation: ${slideLoading} 1.5s ease-in-out infinite;
 `;
 
-function GenericLoadEl(props: loadingGenericProps) {
+function GenericLoadingEl(props: loadingGenericProps) {
   return <LoadingGeneric {...props} />;
 }
 
-export default GenericLoadEl;
+export default GenericLoadingEl;
