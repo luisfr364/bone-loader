@@ -29,12 +29,14 @@ For the time being these are the properties that can be customized via props:
 
 As the name says it's a component that allows you to place a single line with a loading animation.
 
-- $width
-- $height
-- $margin
-- $borderRadius
-- $clipPath
+| Property      | Type   | Default |
+| ------------- | ------ | ------- |
+| $width        | String | 100%    |
+| $height       | String | 50px    |
+| $borderRadius | String | 18px    |
 
 ## LoadingLines
 
 This is wrapper class for the LoadingLine elements that lets you place multiple lines with a single element by passing the values of lines to be rendered via props, the default number is just one.
+
+`<LoadingLines lineprops={{margin="15px"}} containerProps={{$width="80%px"}}>`

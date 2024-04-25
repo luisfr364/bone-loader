@@ -1,12 +1,6 @@
 import styled from "styled-components";
 import { slideLoading } from "../animations/loadingAnimation";
 
-const defaultValues = {
-  $width: "100%",
-  $height: "50px",
-  $margin: "0 0 10px 0",
-};
-
 interface loadingGenericProps {
   $width?: string;
   $height?: string;
@@ -16,9 +10,9 @@ interface loadingGenericProps {
 }
 
 const LoadingGeneric = styled.div<loadingGenericProps>`
-  height: ${({ $height }) => $height || defaultValues.$height};
-  width: ${({ $width }) => $width || defaultValues.$width};
-  margin: ${({ $margin }) => $margin || defaultValues.$margin};
+  height: ${({ $height }) => $height};
+  width: ${({ $width = "100%" }) => $width};
+  margin: ${({ $margin = "10%" }) => $margin};
   clip-path: ${({ $clipPath }) => $clipPath || "none"};
   border-radius: ${({ $borderRadius }) => $borderRadius || "0px"};
   background-size: 200% 100%;

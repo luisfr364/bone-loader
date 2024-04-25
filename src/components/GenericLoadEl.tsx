@@ -17,8 +17,8 @@ interface loadingGenericProps {
 
 const LoadingGeneric = styled.div<loadingGenericProps>`
   height: ${({ $height }) => $height || defaultValues.$height};
-  width: ${({ $width }) => $width || defaultValues.$width};
-  margin: ${({ $margin }) => $margin || defaultValues.$margin};
+  width: ${({ $width = "100%" }) => $width || defaultValues.$width};
+  margin: ${({ $margin = "10%" }) => $margin || defaultValues.$margin};
   clip-path: ${({ $clipPath }) => $clipPath || "none"};
   border-radius: ${({ $borderRadius }) => $borderRadius || "0px"};
   background-size: 200% 100%;

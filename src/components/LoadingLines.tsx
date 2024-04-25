@@ -18,7 +18,7 @@ interface LoadingLinesProps {
 const LoadingLinesContainer = styled.ul`
   padding: 0;
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: #transparent;
   list-style: none;
 `;
 
