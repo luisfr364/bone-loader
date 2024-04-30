@@ -11,7 +11,7 @@ interface LoadingLineProps {
 }
 
 const LoadingLineLi = styled.li<LoadingLineProps>`
-  width: ${({ $width = "100%" }) => $width};
+  width: ${({ $width = "20%" }) => $width};
   height: ${({ $height = "10px" }) => $height};
   margin: ${({ $margin = "0 0 10px 0" }) => $margin};
   border-radius: ${({ $borderRadius = "18px" }) => $borderRadius};

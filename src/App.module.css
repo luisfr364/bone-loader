@@ -1,0 +1,8 @@
+.Appdiv {
+  margin: 30svw;
+  width: 25svw;
+  height: 20svh;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

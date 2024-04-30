@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { slideLoading } from "../animations/loadingAnimation";
+import React from "react";
 
 interface loadingGenericProps {
   $width?: string;
@@ -10,11 +11,11 @@ interface loadingGenericProps {
 }
 
 const LoadingGeneric = styled.div<loadingGenericProps>`
-  height: ${({ $height }) => $height};
+  height: ${({ $height = "50px" }) => $height};
   width: ${({ $width = "100%" }) => $width};
   margin: ${({ $margin = "10%" }) => $margin};
-  clip-path: ${({ $clipPath }) => $clipPath || "none"};
-  border-radius: ${({ $borderRadius }) => $borderRadius || "0px"};
+  clip-path: ${({ $clipPath = "none" }) => $clipPath};
+  border-radius: ${({ $borderRadius = "0px" }) => $borderRadius};
   background-size: 200% 100%;
   background-image: linear-gradient(80deg, #cccccc, #eeecec, #cccccc);
   animation: ${slideLoading} 1.5s ease-in-out infinite;

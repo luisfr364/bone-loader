@@ -1,5 +1,5 @@
 import { default as LoadingLine } from "./components/LoadingLine";
 import { default as LoadingLines } from "./components/LoadingLines";
-import { default as GenericLoadEl } from "./components/GenericLoadEl";
+import { default as GenericLoadingEl } from "./components/GenericLoadingEl";
 
-export { GenericLoadEl, LoadingLines, LoadingLine };
+export { GenericLoadingEl, LoadingLines, LoadingLine };
